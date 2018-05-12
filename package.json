@@ -1,0 +1,28 @@
+{
+  "name": "react-startup",
+  "version": "1.0.0",
+  "description": "Start react development",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dilipkumar2k6/react-startup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dilipkumar2k6/react-startup/issues"
+  },
+  "homepage": "https://github.com/dilipkumar2k6/react-startup#readme",
+  "dependencies": {
+    "@storybook/cli": "^3.4.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.4.3",
+    "babel-core": "^6.26.3"
+  }
+}
