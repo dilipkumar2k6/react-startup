@@ -4,6 +4,7 @@ import HelloWorld from '../src/HelloWorld';
 import FunctionalComponent from '../src/FunctionalComponent';
 import StatefulComponent from '../src/StatefulComponent';
 import WithCSS from '../src/WithCSS';
+import ReactWithLifeCycle from '../src/ReactWithLifeCycle';
 
 storiesOf('HelloWorld', module)
   .add('simple rendering', () => (

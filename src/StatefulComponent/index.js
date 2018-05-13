@@ -1,5 +1,5 @@
 import React from 'react';
-
+import ReactWithLifeCycle from './../ReactWithLifeCycle';
 // This is also called Smart component
 class StatefulComponent extends React.Component {
 
@@ -19,6 +19,7 @@ class StatefulComponent extends React.Component {
         <div>Hello { this.props.name }, Learning react :-)</div>
         <div>Counter: {this.state.counter} </div>
         <button onClick={this.handleClick.bind(this)}>Click to Increment</button>
+        <ReactWithLifeCycle counter={this.state.counter}/>
       </div>
     )
   }
