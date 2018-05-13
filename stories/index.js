@@ -4,7 +4,8 @@ import HelloWorld from '../src/HelloWorld';
 import FunctionalComponent from '../src/FunctionalComponent';
 import StatefulComponent from '../src/StatefulComponent';
 import WithCSS from '../src/WithCSS';
-import ReactWithLifeCycle from '../src/ReactWithLifeCycle';
+import AppBar from '../src/AppBar';
+import AppBarWithButtons from '../src/AppBarWithButtons';
 
 storiesOf('HelloWorld', module)
   .add('simple rendering', () => (
@@ -35,5 +36,17 @@ storiesOf('Stateful component', module)
 storiesOf('With CSS', module)
   .add('simple rendering', () => (
     <WithCSS />
+  ))
+;
+
+storiesOf('AppBar', module)
+  .add('simple rendering', () => (
+    <AppBar />
+  ))
+;
+
+storiesOf('AppBarWithButtons', module)
+  .add('simple rendering', () => (
+    <AppBarWithButtons />
   ))
 ;
